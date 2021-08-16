@@ -12,6 +12,7 @@ import { MyProfileComponent } from './my-profile/my-profile.component';
 import { HeaderComponent } from './home/header/header.component';
 import { MainComponent } from './home/main/main.component';
 import { FooterComponent } from './home/footer/footer.component';
+import { CarouselComponent } from './home/main/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { FooterComponent } from './home/footer/footer.component';
     MyProfileComponent,
     HeaderComponent,
     MainComponent,
-    FooterComponent
+    FooterComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
