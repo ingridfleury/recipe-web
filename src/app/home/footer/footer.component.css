@@ -1,0 +1,39 @@
+.footer{
+  padding: top 80px;
+  margin: 50px 50px;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.bg{
+  background-color: #08202e	;
+  padding: 0px 0px;
+  color: #636e74;
+  font-weight: 400;
+  font-size: 17px;
+  }
+
+.footer-logo{
+  color: #FFF;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.footer-title{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 44px;
+  color: #fff;
+}
+
+.footer-widget ul li a {
+  text-transform: capitalize;
+  font-size: 16px;
+  color: #636e74;
+  display: block;
+  font-weight: normal;
+}
+
+.footer a {
+  text-decoration: none;
+}
