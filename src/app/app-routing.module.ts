@@ -17,9 +17,7 @@ const routes: Routes = [
   { path: 'my-profile', component: MyProfileComponent },
   { path: '404', component: ErrorPageComponent },
   { path: '**', redirectTo: '404'}
-
-
-
+  
 ];
 
 @NgModule({
