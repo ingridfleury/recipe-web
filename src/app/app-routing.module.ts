@@ -6,6 +6,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
 import { RecipeComponent } from './recipe/recipe.component';
+import { ErrorPageComponent } from './error-page/error-page.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full'},
@@ -13,7 +14,10 @@ const routes: Routes = [
   { path: 'register', component: RegisterComponent },
   { path: 'login', component: LoginComponent },
   { path: 'recipe', component: RecipeComponent },
-  { path: 'my-profile', component: MyProfileComponent }
+  { path: 'my-profile', component: MyProfileComponent },
+  { path: '404', component: ErrorPageComponent },
+  { path: '**', redirectTo: '404'}
+
 
 
 ];
