@@ -15,6 +15,7 @@ import { FooterComponent } from './home/footer/footer.component';
 import { CarouselComponent } from './home/main/carousel/carousel.component';
 import { CardsComponent } from './home/main/cards/cards.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
+import { LoginFormComponent } from './login/login-form/login-form.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ErrorPageComponent } from './error-page/error-page.component';
     FooterComponent,
     CarouselComponent,
     CardsComponent,
-    ErrorPageComponent
+    ErrorPageComponent,
+    LoginFormComponent
   ],
   imports: [
     BrowserModule,
