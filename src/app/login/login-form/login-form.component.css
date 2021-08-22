@@ -1,0 +1,13 @@
+.card{
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px 60px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+.elements-margin{
+  margin-bottom: 10px;
+}
